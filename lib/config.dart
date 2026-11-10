@@ -1,5 +1,5 @@
 // ==== CHI CAN SUA 2 DONG NAY (lay trong Firebase Console > Project settings) ====
 const String kProjectId = 'giuaky-nguoidung';
-const String kApiKey = 'AIzaSyBFtcyf5rYIU65tQyFforCGZQU85lWHyE8';
+const String kApiKey = 'THAY_API_KEY';
 
 bool get configMissing => kProjectId.startsWith('THAY') || kApiKey.startsWith('THAY');
