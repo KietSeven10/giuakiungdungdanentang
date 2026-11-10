@@ -1,0 +1,21 @@
+name: giuaky_app
+description: Quan ly nguoi dung (admin) - Flutter + Firebase Firestore (REST), chay web va di dong.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.6.0
+  image_picker: ^1.1.2
+  crypto: ^3.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
