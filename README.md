@@ -5,7 +5,7 @@ Bài thi giữa kỳ môn Lập trình đa nền tảng. Sinh viên: Nguyễn Tu
 ## Chức năng
 - Đăng nhập admin, thêm, sửa, xóa, xem chi tiết người dùng
 - Tìm kiếm, sắp xếp, chế độ tối, xuất và nhập JSON
-- Ảnh đại diện (thư viện hoặc camera), chạy trên web và Android
+- Ảnh đại diện(thư viện), chạy trên web và Android
 
 ## Cơ sở dữ liệu
 Firestore, collection `users`, đúng 4 trường: `email`, `matkhau` (băm SHA-256), `hoten`, `hinhanh` (ảnh mã hóa base64).
